@@ -1,0 +1,118 @@
+.pbg-main, #main {
+
+    transition:margin-left .4s
+}
+
+.header {
+    background-color: #0bf56c;
+    padding: 10px
+}
+
+.nav-sidebar {
+    height:100%;
+    width:200px;
+    background-color:#fff;
+    position:fixed!important;
+    z-index:-1;
+    overflow:auto
+}
+
+.nav-bar-block .nav-dropdown-hover,.nav-bar-block .nav-dropdown-click {
+
+    width: 100%
+}
+
+.nav-bar-block .nav-dropdown-hover .nav-dropdown-content,.nav-bar-block .nav-dropdowm-click .nav-dropdown-content {
+
+    min-width: 100%
+}
+
+.nav-bar-block .nav-dropdown-hover .nav-button,.nav-bar-block .nav-dropdown-click .nav-button {
+
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
+.nav-orange,.nav-hover-khaki:hover {
+
+    color:#ff9800!important;background-color: #ff9800!important
+}
+
+.nav-animate-left {
+
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+
+    from {
+        left: -300px;
+        opacity:0
+    }
+
+    to {
+        left:0;
+        opacity: 1
+    }
+}
+
+.nav-text-black,.nav-hover-text-black:hover {
+
+    color:#000!important
+}
+
+.nav-top,.nav-bottom {
+
+    position:fixed;
+    width:100%;
+    z-index:1
+}
+
+.nav-top {
+
+    top:0
+}
+
+.nav-bottom {
+    bottom: 0
+}
+
+.nav-center {
+
+    text-align:center!important
+}
+
+.nav-collapse {
+
+    display: block!important
+}
+
+.nav-right {
+
+    float: right!important
+}
+
+.nav-padding {
+
+    padding-top:32px!important
+}
+
+.nav-bar-item {
+
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.nav-hide-large {
+
+    display: none!important
+}
+
